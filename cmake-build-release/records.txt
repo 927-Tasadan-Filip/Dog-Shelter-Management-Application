@@ -1,0 +1,11 @@
+Teil,Rex,20,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Wolf,TTT,4,https://en.wikipedia.org/wiki/Wolfdog#/media/File:Llop.jpg
+Caucasian,Test4,11,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Rottweiler,Toby,16,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Caucasian,TomTom,10,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Rottweiler,Rush,5,https://en.wikipedia.org/wiki/Rottweiler#/media/File:Rottweiler_standing_facing_left.jpg
+Husky,Roy,23,https://en.wikipedia.org/wiki/Balto#/media/File:Gunnar_Kaasen_with_Balto.jpg
+Wolf,TinTin,4,https://en.wikipedia.org/wiki/Wolfdog#/media/File:Llop.jpg
+Husky,DDD,1,https://en.wikipedia.org/wiki/Balto#/media/File:Gunnar_Kaasen_with_Balto.jpg
+Caucasian,Test2,1,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Caucasian,Test3,1,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM

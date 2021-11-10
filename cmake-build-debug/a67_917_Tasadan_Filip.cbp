@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a67_917_Tasadan_Filip"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a67_917_Tasadan_Filip">
+				<Option output="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/a67_917_Tasadan_Filip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Entity"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Tests"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/UserInterface"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 a67_917_Tasadan_Filip"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a67_917_Tasadan_Filip/fast">
+				<Option output="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/a67_917_Tasadan_Filip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Entity"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Tests"/>
+					<Add directory="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/UserInterface"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 a67_917_Tasadan_Filip/fast"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Entity/DogEntity.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Entity/DogEntity.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Exceptions/ProgramExceptions.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/CSV_Repository.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/CSV_Repository.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/HTML_Repository.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/HTML_Repository.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/Repository.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/Repository.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/SQL_Repository.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Repository/SQL_Repository.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/SQL_Source_files/sqlite3.c">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/SQL_Source_files/sqlite3.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service/AdminController.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service/AdminController.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service/UserController.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Service/UserController.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/StringFunctions/StringFunctions.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/StringFunctions/StringFunctions.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Tests/Test.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Tests/Test.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/UserInterface/UI.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/UserInterface/UI.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Validator/ProgramValidator.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/Validator/ProgramValidator.h">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/main.cpp">
+			<Option target="a67_917_Tasadan_Filip"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip/Documents/GitHub/a89-917-Tasadan-Filip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

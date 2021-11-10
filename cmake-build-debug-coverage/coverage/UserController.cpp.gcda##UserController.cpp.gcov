@@ -1,0 +1,57 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/Service/UserController.cpp
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Service/UserController.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Service/UserController.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 22-Mar-21.
+        -:    3://
+        -:    4:
+        -:    5:#include "UserController.h"
+        -:    6:
+        1:    7:void UserController::addToAdoptionList(const Dog& given_dog) {
+        1:    8:    this->adoption_list.addDog(given_dog);
+        1:    8-block  0
+        -:    9:
+        1:   10:}
+        -:   11:
+        1:   12:std::vector<Dog> UserController::sortDogs(const std::vector<Dog> &dog_array, std::string breed, int max_age) {
+        -:   13:
+        2:   14:    std::vector<Dog> copy_dog_array = dog_array;
+        1:   14-block  0
+        1:   14-block  1
+    $$$$$:   14-block  2
+        1:   15:    std::vector<Dog> filtered_dog_array(dog_array.size());
+        1:   15-block  0
+    $$$$$:   15-block  1
+        -:   16:
+        -:   17:
+        -:   18:    auto it = std::copy_if(copy_dog_array.begin(), copy_dog_array.end(), filtered_dog_array.begin(),
+       13:   19:                           [breed, max_age](Dog &current_dog){ return ((current_dog.getAge() <= max_age) && (current_dog.getBreed() == breed));});
+        1:   19-block  0
+        1:   19-block  1
+    $$$$$:   19-block  2
+    $$$$$:   19-block  3
+       12:   19-block  4
+       12:   19-block  5
+       12:   19-block  6
+       12:   19-block  7
+        2:   19-block  8
+       10:   19-block  9
+       12:   19-block 10
+       12:   19-block 11
+       12:   19-block 12
+       12:   19-block 13
+    $$$$$:   19-block 14
+    $$$$$:   19-block 15
+        1:   20:    filtered_dog_array.resize(std::distance(filtered_dog_array.begin(), it));
+        1:   20-block  0
+        2:   21:    return filtered_dog_array;
+        1:   21-block  0
+        1:   21-block  1
+        -:   22:}
+        -:   23:
+        1:   24:std::vector<Dog> UserController::getAdoptionList() {
+        1:   25:    return this->adoption_list.getRecord();
+        1:   25-block  0
+        -:   26:
+        -:   27:}

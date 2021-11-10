@@ -1,0 +1,68 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/UserInterface/UI.h
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/main.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 18-Mar-21.
+        -:    3://
+        -:    4:
+        -:    5:#pragma once
+        -:    6:
+        -:    7:#include <string>
+        -:    8:#include <iostream>
+        -:    9:#include "AdminController.h"
+        -:   10:#include "UserController.h"
+        -:   11:
+        -:   12:class UserInterface {
+        -:   13:private:
+        -:   14:    AdminService program_controller;
+        -:   15:    UserController user_program_controller;
+        -:   16:
+        -:   17:public:
+        1:   18:    UserInterface() {}
+        1:   18-block  0
+        1:   18-block  1
+    $$$$$:   18-block  2
+        -:   19:
+        -:   20:    void UIAddNewDog();
+        -:   21:
+        -:   22:    void UIRemoveDog();
+        -:   23:
+        -:   24:    void UIUpdateDogAge();
+        -:   25:
+        -:   26:    void UIUpdateDogPhoto();
+        -:   27:
+        -:   28:    void printListOfDogs(std::vector<Dog>);
+        -:   29:
+        -:   30:    void getAllDogsList();
+        -:   31:
+        -:   32:    void printModeChoices();
+        -:   33:
+        -:   34:    void printAdminMenu();
+        -:   35:
+        -:   36:    void runAdmin();
+        -:   37:
+        -:   38:    void printIterationChoices();
+        -:   39:
+        -:   40:    static void printCurrentDog(Dog current_dog);
+        -:   41:
+        -:   42:    void UIIterateAllDogs();
+        -:   43:
+        -:   44:    std::string askForSortBreed();
+        -:   45:
+        -:   46:    int askForSortAge();
+        -:   47:
+        -:   48:    void UIIterateSortedDogs();
+        -:   49:
+        -:   50:    void displayAdoptionList();
+        -:   51:
+        -:   52:    void printUserMenu();
+        -:   53:
+        -:   54:    void runUser();
+        -:   55:
+        -:   56:    std::string chooseMode();
+        -:   57:
+        -:   58:    std::string chooseAction();
+        -:   59:
+        -:   60:    void startProgram(std::string file_name);
+        -:   61:};

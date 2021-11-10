@@ -1,0 +1,4 @@
+C:/Users/Filip/Documents/GitHub/Dog-Shelter-Management-Application/cmake-build-release/CMakeFiles/a89_917_Tasadan_Filip.dir
+C:/Users/Filip/Documents/GitHub/Dog-Shelter-Management-Application/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/Filip/Documents/GitHub/Dog-Shelter-Management-Application/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/Filip/Documents/GitHub/Dog-Shelter-Management-Application/cmake-build-release/CMakeFiles/a89_917_Tasadan_Filip_autogen.dir

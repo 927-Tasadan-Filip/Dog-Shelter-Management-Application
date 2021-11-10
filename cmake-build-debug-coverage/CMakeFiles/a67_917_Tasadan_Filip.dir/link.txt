@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\a67_917_Tasadan_Filip.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\a67_917_Tasadan_Filip.dir/objects.a @CMakeFiles\a67_917_Tasadan_Filip.dir\objects1.rsp
+C:\MinGW\bin\g++.exe --coverage -g   -Wl,--whole-archive CMakeFiles\a67_917_Tasadan_Filip.dir/objects.a -Wl,--no-whole-archive  -o a67_917_Tasadan_Filip.exe -Wl,--out-implib,liba67_917_Tasadan_Filip.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\a67_917_Tasadan_Filip.dir\linklibs.rsp

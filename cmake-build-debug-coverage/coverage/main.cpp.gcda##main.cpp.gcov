@@ -1,0 +1,33 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/main.cpp
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/main.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 18-Mar-21.
+        -:    3://
+        -:    4:
+        -:    5:#include "UI.h"
+        -:    6:#include "Tests/Test.h"
+        -:    7:
+        -:    8:
+        -:    9:
+        1:   10:int main() {
+        -:   11:    Test test_object;
+        1:   12:    UserInterface program_ui;
+        1:   12-block  0
+    $$$$$:   12-block  1
+        1:   13:    test_object.testAll();
+        1:   13-block  0
+        1:   14:    program_ui.startProgram("records.txt");
+        1:   14-block  0
+        1:   14-block  1
+        1:   14-block  2
+    $$$$$:   14-block  3
+    $$$$$:   14-block  4
+    $$$$$:   14-block  5
+    $$$$$:   14-block  6
+        -:   15:
+        -:   16:
+        -:   17:
+        1:   18:    return 0;
+        -:   19:}

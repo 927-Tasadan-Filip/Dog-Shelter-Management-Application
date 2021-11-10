@@ -1,0 +1,40 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/Validator/ProgramValidator.cpp
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Validator/ProgramValidator.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Validator/ProgramValidator.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 08-Apr-21.
+        -:    3://
+        -:    4:
+        -:    5:#include "ProgramValidator.h"
+        -:    6:
+        7:    7:void Validator::validateAge(int age) {
+        7:    8:    if(age < 0 or age > 40)
+        7:    8-block  0
+        7:    8-block  1
+    #####:    9:        throw ValidationException("Invalid dog age!");
+    %%%%%:    9-block  0
+    %%%%%:    9-block  1
+    %%%%%:    9-block  2
+    $$$$$:    9-block  3
+    $$$$$:    9-block  4
+    $$$$$:    9-block  5
+    $$$$$:    9-block  6
+    $$$$$:    9-block  7
+        7:   10:}
+        7:   10-block  0
+        -:   11:
+        8:   12:void Validator::validatePhoto(std::string photo) {
+        8:   13:    if(photo.find("https://") == std::string::npos)
+        8:   13-block  0
+        1:   14:        throw ValidationException("Invalid photo link!");
+        1:   14-block  0
+        1:   14-block  1
+        1:   14-block  2
+    $$$$$:   14-block  3
+    $$$$$:   14-block  4
+    $$$$$:   14-block  5
+    $$$$$:   14-block  6
+    $$$$$:   14-block  7
+        7:   15:}
+        7:   15-block  0

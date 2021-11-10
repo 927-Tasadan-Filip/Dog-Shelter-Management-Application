@@ -1,0 +1,11 @@
+Caucasian,Beti,10,https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM
+Akita,Hachiko,10,https://www.google.com/search?q=hachiko&source=lnms&tbm=isch&sa=X&ved=2ahUKEwirsMa489nvAhVl-SoKHVrLBWQQ_AUoAXoECAEQAw&biw=1280&bih=881&dpr=1#imgrc=PCAuo7sgtnIe0M
+Afgan,Toby,5,https://en.wikipedia.org/wiki/Afghan_Hound#/media/File:Afghane.jpg
+Husky,Balto,9,https://en.wikipedia.org/wiki/Balto#/media/File:Gunnar_Kaasen_with_Balto.jpg
+Siberian,Laika,8,https://en.wikipedia.org/wiki/Laika#/media/File:Laika_(Soviet_dog).jpg
+Collie,Lassie,3,https://en.wikipedia.org/wiki/Lassie#/media/File:Lassie_and_Tommy_Rettig_1956.JPG
+Cartoon,Scooby-Doo,12,https://en.wikipedia.org/wiki/Scooby-Doo#/media/File:Scooby-gang-1969.jpg
+Wolf,TinTin,4,https://en.wikipedia.org/wiki/Wolfdog#/media/File:Llop.jpg
+Rottweiler,Jack,9,https://en.wikipedia.org/wiki/Rottweiler#/media/File:Rottweiler_standing_facing_left.jpg
+EEE,EEE,23,https://www.google.com
+Akita,Tokoyama,23,https://www.google.com/search?q=hachiko&source=lnms&tbm=isch&sa=X&ved=2ahUKEwirsMa489nvAhVl-SoKHVrLBWQQ_AUoAXoECAEQAw&biw=1280&bih=881&dpr=1#imgrc=PCAuo7sgtnIe0M

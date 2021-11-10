@@ -1,0 +1,228 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/Service/AdminController.cpp
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Service/AdminController.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Service/AdminController.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 18-Mar-21.
+        -:    3://
+        -:    4:
+        -:    5:#include "AdminController.h"
+        -:    6:
+        7:    7:void AdminService::serviceAddDog(std::string breed, std::string name, int age, std::string photograph) {
+        7:    8:    Validator::validateAge(age);
+        7:    8-block  0
+        7:    9:    Validator::validatePhoto(photograph);
+        7:    9-block  0
+        7:    9-block  1
+        7:    9-block  2
+    $$$$$:    9-block  3
+    $$$$$:    9-block  4
+        -:   10:
+       21:   11:    Dog new_dog{breed, name, age, photograph};
+        7:   11-block  0
+        7:   11-block  1
+        7:   11-block  2
+        6:   11-block  3
+    $$$$$:   11-block  4
+    $$$$$:   11-block  5
+    $$$$$:   11-block  6
+        1:   11-block  7
+        7:   12:    this->program_repo.addDog(new_dog);
+        6:   13:}
+        -:   14:
+        2:   15:void AdminService::serviceDeleteDog(std::string name) {
+        4:   16:    Dog del_dog{name};
+        2:   16-block  0
+        2:   16-block  1
+        1:   16-block  2
+    $$$$$:   16-block  3
+        1:   16-block  4
+        2:   17:    this->program_repo.deleteDog(del_dog);
+        1:   18:}
+        -:   19:
+        2:   20:void AdminService::serviceUpdateDogAge(std::string name, int new_age) {
+        3:   21:    Dog up_dog{name, new_age};
+        2:   21-block  0
+        2:   21-block  1
+    $$$$$:   21-block  2
+        1:   21-block  3
+        3:   22:    this->program_repo.updateDog(up_dog, 'a');
+        2:   22-block  0
+        1:   22-block  1
+        1:   22-block  2
+        1:   22-block  3
+        -:   23:
+        1:   24:}
+        -:   25:
+        2:   26:void AdminService::serviceUpdateDogPhoto(std::string name, std::string new_photo) {
+        5:   27:    Dog up_dog{name, new_photo};
+        2:   27-block  0
+        2:   27-block  1
+        2:   27-block  2
+    $$$$$:   27-block  3
+    $$$$$:   27-block  4
+        1:   27-block  5
+        3:   28:    this->program_repo.updateDog(up_dog, 'p');
+        2:   28-block  0
+        1:   28-block  1
+        1:   28-block  2
+        1:   28-block  3
+        1:   29:}
+        -:   30:
+        7:   31:std::vector<Dog> AdminService::getAllDogs() {
+        7:   32:    return this->program_repo.getRecord();
+        7:   32-block  0
+        -:   33:}
+        -:   34:
+        1:   35:void AdminService::servicePopulateShelter() {
+        -:   36:
+        3:   37:    Dog new_dog_1{"Caucasian", "Beti", 6, "https://www.google.com/search?q=caucasian+shepherd+dog&rlz=1C1GCEA_enRO919RO919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjaidSH8NnvAhWZPewKHaW6DfgQ_AUoAXoECAEQAw&biw=1280&bih=881#imgrc=8IPZh03AOuVfIM"};
+        1:   37-block  0
+        1:   37-block  1
+        1:   37-block  2
+        1:   37-block  3
+    $$$$$:   37-block  4
+    $$$$$:   37-block  5
+    $$$$$:   37-block  6
+    $$$$$:   37-block  7
+    $$$$$:   37-block  8
+    $$$$$:   37-block  9
+    $$$$$:   37-block 10
+        1:   38:    this->program_repo.addDog(new_dog_1);
+        -:   39:
+        3:   40:    Dog new_dog_2{"Akita", "Hachiko", 10, "https://www.google.com/search?q=hachiko&source=lnms&tbm=isch&sa=X&ved=2ahUKEwirsMa489nvAhVl-SoKHVrLBWQQ_AUoAXoECAEQAw&biw=1280&bih=881&dpr=1#imgrc=PCAuo7sgtnIe0M"};
+        1:   40-block  0
+        1:   40-block  1
+        1:   40-block  2
+        1:   40-block  3
+    $$$$$:   40-block  4
+    $$$$$:   40-block  5
+    $$$$$:   40-block  6
+    $$$$$:   40-block  7
+    $$$$$:   40-block  8
+    $$$$$:   40-block  9
+    $$$$$:   40-block 10
+        1:   41:    this->program_repo.addDog(new_dog_2);
+        -:   42:
+        3:   43:    Dog new_dog_3{"Afgan", "Toby", 5, "https://en.wikipedia.org/wiki/Afghan_Hound#/media/File:Afghane.jpg"};
+        1:   43-block  0
+        1:   43-block  1
+        1:   43-block  2
+        1:   43-block  3
+    $$$$$:   43-block  4
+    $$$$$:   43-block  5
+    $$$$$:   43-block  6
+    $$$$$:   43-block  7
+    $$$$$:   43-block  8
+    $$$$$:   43-block  9
+    $$$$$:   43-block 10
+        1:   44:    this->program_repo.addDog(new_dog_3);
+        -:   45:
+        3:   46:    Dog new_dog_4{"Husky", "Balto", 9, "https://en.wikipedia.org/wiki/Balto#/media/File:Gunnar_Kaasen_with_Balto.jpg"};
+        1:   46-block  0
+        1:   46-block  1
+        1:   46-block  2
+        1:   46-block  3
+    $$$$$:   46-block  4
+    $$$$$:   46-block  5
+    $$$$$:   46-block  6
+    $$$$$:   46-block  7
+    $$$$$:   46-block  8
+    $$$$$:   46-block  9
+    $$$$$:   46-block 10
+        1:   47:    this->program_repo.addDog(new_dog_4);
+        -:   48:
+        3:   49:    Dog new_dog_5{"Siberian", "Laika", 8, "https://en.wikipedia.org/wiki/Laika#/media/File:Laika_(Soviet_dog).jpg"};
+        1:   49-block  0
+        1:   49-block  1
+        1:   49-block  2
+        1:   49-block  3
+    $$$$$:   49-block  4
+    $$$$$:   49-block  5
+    $$$$$:   49-block  6
+    $$$$$:   49-block  7
+    $$$$$:   49-block  8
+    $$$$$:   49-block  9
+    $$$$$:   49-block 10
+        1:   50:    this->program_repo.addDog(new_dog_5);
+        -:   51:
+        3:   52:    Dog new_dog_6{"Collie", "Lassie", 3, "https://en.wikipedia.org/wiki/Lassie#/media/File:Lassie_and_Tommy_Rettig_1956.JPG"};
+        1:   52-block  0
+        1:   52-block  1
+        1:   52-block  2
+        1:   52-block  3
+    $$$$$:   52-block  4
+    $$$$$:   52-block  5
+    $$$$$:   52-block  6
+    $$$$$:   52-block  7
+    $$$$$:   52-block  8
+    $$$$$:   52-block  9
+    $$$$$:   52-block 10
+        1:   53:    this->program_repo.addDog(new_dog_6);
+        -:   54:
+        3:   55:    Dog new_dog_7{"Cartoon", "Scooby-Doo", 12, "https://en.wikipedia.org/wiki/Scooby-Doo#/media/File:Scooby-gang-1969.jpg"};
+        1:   55-block  0
+        1:   55-block  1
+        1:   55-block  2
+        1:   55-block  3
+    $$$$$:   55-block  4
+    $$$$$:   55-block  5
+    $$$$$:   55-block  6
+    $$$$$:   55-block  7
+    $$$$$:   55-block  8
+    $$$$$:   55-block  9
+    $$$$$:   55-block 10
+        1:   56:    this->program_repo.addDog(new_dog_7);
+        -:   57:
+        3:   58:    Dog new_dog_8{"Cartoon", "Snoopy", 5, "https://en.wikipedia.org/wiki/Snoopy#/media/File:Snoopy_Peanuts.png"};
+        1:   58-block  0
+        1:   58-block  1
+        1:   58-block  2
+        1:   58-block  3
+    $$$$$:   58-block  4
+    $$$$$:   58-block  5
+    $$$$$:   58-block  6
+    $$$$$:   58-block  7
+    $$$$$:   58-block  8
+    $$$$$:   58-block  9
+    $$$$$:   58-block 10
+        1:   59:    this->program_repo.addDog(new_dog_8);
+        -:   60:
+        3:   61:    Dog new_dog_9{"Wolf", "TinTin", 4, "https://en.wikipedia.org/wiki/Wolfdog#/media/File:Llop.jpg"};
+        1:   61-block  0
+        1:   61-block  1
+        1:   61-block  2
+        1:   61-block  3
+    $$$$$:   61-block  4
+    $$$$$:   61-block  5
+    $$$$$:   61-block  6
+    $$$$$:   61-block  7
+    $$$$$:   61-block  8
+    $$$$$:   61-block  9
+    $$$$$:   61-block 10
+        1:   62:    this->program_repo.addDog(new_dog_9);
+        -:   63:
+        3:   64:    Dog new_dog_10{"Rottweiler", "Jack", 9, "https://en.wikipedia.org/wiki/Rottweiler#/media/File:Rottweiler_standing_facing_left.jpg"};
+        1:   64-block  0
+        1:   64-block  1
+        1:   64-block  2
+        1:   64-block  3
+        1:   64-block  4
+    $$$$$:   64-block  5
+    $$$$$:   64-block  6
+    $$$$$:   64-block  7
+    $$$$$:   64-block  8
+    $$$$$:   64-block  9
+    $$$$$:   64-block 10
+    $$$$$:   64-block 11
+        1:   65:    this->program_repo.addDog(new_dog_10);
+        -:   66:
+        -:   67:
+        1:   68:}
+        -:   69:
+        2:   70:void AdminService::adminServiceSetFileName(std::string file_name) {
+        2:   71:    this->program_repo.setFileName(file_name);
+        2:   71-block  0
+        2:   71-block  1
+    $$$$$:   71-block  2
+        2:   72:}

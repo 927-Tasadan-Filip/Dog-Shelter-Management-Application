@@ -1,0 +1,352 @@
+        -:    0:Source:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/Tests/Test.cpp
+        -:    0:Graph:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Tests/Test.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Filip/Documents/GitHub/a67-917-Tasadan-Filip/cmake-build-debug-coverage/CMakeFiles/a67_917_Tasadan_Filip.dir/Tests/Test.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Filip on 22-Mar-21.
+        -:    3://
+        -:    4:
+        -:    5:#include <iostream>
+        -:    6:#include "Test.h"
+        -:    7:#include "../Exceptions/ProgramExceptions.h"
+        -:    8:
+        1:    9:void Test::testAll() {
+        1:   10:    this->testManualAdminFunctionalities();
+        1:   10-block  0
+        1:   11:    this->testAutoAdminFunctionalities();
+        1:   12:}
+        -:   13:
+        1:   14:void Test::testManualAdminFunctionalities() {
+        1:   15:    AdminService test_service;
+        1:   15-block  0
+    $$$$$:   15-block  1
+        -:   16:
+        1:   17:    test_service.serviceAddDog("Caucasian", "Toby", 15, "https://www.google.com/");
+        1:   17-block  0
+        1:   17-block  1
+        1:   17-block  2
+        1:   17-block  3
+        1:   17-block  4
+    $$$$$:   17-block  5
+    $$$$$:   17-block  6
+    $$$$$:   17-block  7
+    $$$$$:   17-block  8
+    $$$$$:   17-block  9
+    $$$$$:   17-block 10
+    $$$$$:   17-block 11
+    $$$$$:   17-block 12
+    $$$$$:   17-block 13
+    $$$$$:   17-block 14
+    $$$$$:   17-block 15
+    $$$$$:   17-block 16
+        -:   18:    try {
+       7*:   19:        test_service.serviceAddDog("Caucasian", "Toby", 15, "https://www.google.com/");
+        1:   19-block  0
+        1:   19-block  1
+        1:   19-block  2
+    %%%%%:   19-block  3
+        1:   19-block  4
+        1:   19-block  5
+        1:   19-block  6
+        1:   19-block  7
+        1:   19-block  8
+        1:   19-block  9
+        1:   19-block 10
+        1:   19-block 11
+        1:   19-block 12
+        1:   19-block 13
+        1:   19-block 14
+        1:   19-block 15
+        -:   20:    }
+        1:   21:    catch(...) {
+        1:   21-block  0
+        -:   22:        assert(true);
+        -:   23:    }
+        -:   24:
+       1*:   25:    assert(test_service.getAllDogs()[0].getName() == "Toby");
+        1:   25-block  0
+        1:   25-block  1
+        1:   25-block  2
+    %%%%%:   25-block  3
+        1:   25-block  4
+    $$$$$:   25-block  5
+    $$$$$:   25-block  6
+        -:   26:
+        1:   27:    test_service.serviceAddDog("Caucasian", "Bob", 12, "https://www.google.com/");
+        1:   27-block  0
+        1:   27-block  1
+        1:   27-block  2
+        1:   27-block  3
+    $$$$$:   27-block  4
+    $$$$$:   27-block  5
+    $$$$$:   27-block  6
+    $$$$$:   27-block  7
+    $$$$$:   27-block  8
+    $$$$$:   27-block  9
+    $$$$$:   27-block 10
+    $$$$$:   27-block 11
+    $$$$$:   27-block 12
+    $$$$$:   27-block 13
+    $$$$$:   27-block 14
+    $$$$$:   27-block 15
+        1:   28:    test_service.serviceAddDog("Caucasian", "asdf", 13, "https://www.google.com/");
+        1:   28-block  0
+        1:   28-block  1
+        1:   28-block  2
+        1:   28-block  3
+    $$$$$:   28-block  4
+    $$$$$:   28-block  5
+    $$$$$:   28-block  6
+    $$$$$:   28-block  7
+    $$$$$:   28-block  8
+    $$$$$:   28-block  9
+    $$$$$:   28-block 10
+    $$$$$:   28-block 11
+    $$$$$:   28-block 12
+    $$$$$:   28-block 13
+    $$$$$:   28-block 14
+    $$$$$:   28-block 15
+        -:   29:
+       1*:   30:    assert(test_service.getAllDogs()[1].getName() == "Bob");
+        1:   30-block  0
+        1:   30-block  1
+    %%%%%:   30-block  2
+        1:   30-block  3
+    $$$$$:   30-block  4
+    $$$$$:   30-block  5
+        -:   31:
+        1:   32:    test_service.serviceDeleteDog("Bob");
+        1:   32-block  0
+        1:   32-block  1
+    $$$$$:   32-block  2
+    $$$$$:   32-block  3
+    $$$$$:   32-block  4
+    $$$$$:   32-block  5
+        -:   33:
+        -:   34:    try {
+       3*:   35:        test_service.serviceDeleteDog("Bob");
+        1:   35-block  0
+    %%%%%:   35-block  1
+        1:   35-block  2
+        1:   35-block  3
+        1:   35-block  4
+        1:   35-block  5
+        -:   36:    }
+        1:   37:    catch(...) {
+        1:   37-block  0
+        -:   38:        assert(true);
+        -:   39:    }
+        -:   40:
+        -:   41:    try {
+       3*:   42:        test_service.serviceUpdateDogAge("Bob", 22);
+        1:   42-block  0
+        1:   42-block  1
+    %%%%%:   42-block  2
+        1:   42-block  3
+        1:   42-block  4
+        1:   42-block  5
+        1:   42-block  6
+        -:   43:    }
+        1:   44:    catch(...) {
+        1:   44-block  0
+        -:   45:        assert(true);
+        -:   46:    }
+        -:   47:
+        -:   48:    try {
+       5*:   49:        test_service.serviceUpdateDogPhoto("Bob", "eee");
+        1:   49-block  0
+        1:   49-block  1
+        1:   49-block  2
+    %%%%%:   49-block  3
+        1:   49-block  4
+        1:   49-block  5
+        1:   49-block  6
+        1:   49-block  7
+        1:   49-block  8
+        1:   49-block  9
+        1:   49-block 10
+        1:   49-block 11
+        -:   50:    }
+        1:   51:    catch(...) {
+        1:   51-block  0
+        -:   52:        assert(true);
+        -:   53:    }
+        -:   54:
+       1*:   55:    assert(test_service.getAllDogs()[1].getName() == "asdf");
+        1:   55-block  0
+        1:   55-block  1
+        1:   55-block  2
+    %%%%%:   55-block  3
+        1:   55-block  4
+    $$$$$:   55-block  5
+    $$$$$:   55-block  6
+        -:   56:
+        1:   57:    test_service.serviceUpdateDogPhoto("asdf", "https://www.google.com/");
+        1:   57-block  0
+        1:   57-block  1
+        1:   57-block  2
+    $$$$$:   57-block  3
+    $$$$$:   57-block  4
+    $$$$$:   57-block  5
+    $$$$$:   57-block  6
+    $$$$$:   57-block  7
+    $$$$$:   57-block  8
+    $$$$$:   57-block  9
+    $$$$$:   57-block 10
+       1*:   58:    assert(test_service.getAllDogs()[1].getPhotograph() == "https://www.google.com/");
+        1:   58-block  0
+        1:   58-block  1
+    %%%%%:   58-block  2
+        1:   58-block  3
+    $$$$$:   58-block  4
+    $$$$$:   58-block  5
+        -:   59:
+        1:   60:    test_service.serviceUpdateDogAge("asdf", 101);
+        1:   60-block  0
+        1:   60-block  1
+    $$$$$:   60-block  2
+    $$$$$:   60-block  3
+    $$$$$:   60-block  4
+    $$$$$:   60-block  5
+       1*:   61:    assert(test_service.getAllDogs()[1].getAge() == 101);
+        1:   61-block  0
+        1:   61-block  1
+    %%%%%:   61-block  2
+        1:   61-block  3
+    $$$$$:   61-block  4
+    $$$$$:   61-block  5
+        -:   62:
+        1:   63:}
+        -:   64:
+        1:   65:void Test::testAutoAdminFunctionalities() {
+        2:   66:    AdminService test_service;
+        1:   66-block  0
+    $$$$$:   66-block  1
+        1:   67:    test_service.servicePopulateShelter();
+        1:   67-block  0
+        1:   68:    test_service.serviceAddDog("Caucasian", "Bob", 12, "https://www.google.com/");
+        1:   68-block  0
+        1:   68-block  1
+        1:   68-block  2
+        1:   68-block  3
+        1:   68-block  4
+    $$$$$:   68-block  5
+    $$$$$:   68-block  6
+    $$$$$:   68-block  7
+    $$$$$:   68-block  8
+    $$$$$:   68-block  9
+    $$$$$:   68-block 10
+    $$$$$:   68-block 11
+    $$$$$:   68-block 12
+    $$$$$:   68-block 13
+    $$$$$:   68-block 14
+    $$$$$:   68-block 15
+    $$$$$:   68-block 16
+        1:   69:    test_service.serviceAddDog("Caucasian", "asdf", 13, "https://www.google.com/");
+        1:   69-block  0
+        1:   69-block  1
+        1:   69-block  2
+        1:   69-block  3
+    $$$$$:   69-block  4
+    $$$$$:   69-block  5
+    $$$$$:   69-block  6
+    $$$$$:   69-block  7
+    $$$$$:   69-block  8
+    $$$$$:   69-block  9
+    $$$$$:   69-block 10
+    $$$$$:   69-block 11
+    $$$$$:   69-block 12
+    $$$$$:   69-block 13
+    $$$$$:   69-block 14
+    $$$$$:   69-block 15
+       1*:   70:    assert(test_service.getAllDogs()[11].getName() == "asdf");
+        1:   70-block  0
+        1:   70-block  1
+    %%%%%:   70-block  2
+        1:   70-block  3
+    $$$$$:   70-block  4
+    $$$$$:   70-block  5
+        2:   71:    Dog new_dog;
+    $$$$$:   71-block  0
+        1:   72:    new_dog.setName("eee");
+        1:   72-block  0
+        1:   72-block  1
+        1:   72-block  2
+    $$$$$:   72-block  3
+    $$$$$:   72-block  4
+    $$$$$:   72-block  5
+    $$$$$:   72-block  6
+       1*:   73:    assert(new_dog.getName() == "eee");
+        1:   73-block  0
+    %%%%%:   73-block  1
+        1:   73-block  2
+        -:   74:
+        2:   75:    UserController test_controller;
+    $$$$$:   75-block  0
+        1:   76:    test_controller.getAdoptionList();
+        1:   76-block  0
+        1:   76-block  1
+        1:   77:    test_controller.sortDogs(test_service.getAllDogs(), "Cartoon", 20);
+        1:   77-block  0
+        1:   77-block  1
+        1:   77-block  2
+    $$$$$:   77-block  3
+    $$$$$:   77-block  4
+    $$$$$:   77-block  5
+    $$$$$:   77-block  6
+    $$$$$:   77-block  7
+    $$$$$:   77-block  8
+        1:   78:    test_controller.addToAdoptionList(new_dog);
+        1:   79:    test_service.adminServiceSetFileName("test_text.txt");
+        1:   79-block  0
+        1:   79-block  1
+        1:   79-block  2
+    $$$$$:   79-block  3
+    $$$$$:   79-block  4
+    $$$$$:   79-block  5
+    $$$$$:   79-block  6
+        3:   80:    Dog dog1{"asdf", "adsdfsd", 20, "https://www.google.com"};
+        1:   80-block  0
+        1:   80-block  1
+        1:   80-block  2
+        1:   80-block  3
+    $$$$$:   80-block  4
+    $$$$$:   80-block  5
+    $$$$$:   80-block  6
+    $$$$$:   80-block  7
+    $$$$$:   80-block  8
+    $$$$$:   80-block  9
+    $$$$$:   80-block 10
+        1:   81:    test_service.serviceAddDog("Caucasian", "Bob", 12, "https://www.google.com/");
+        1:   81-block  0
+        1:   81-block  1
+        1:   81-block  2
+        1:   81-block  3
+    $$$$$:   81-block  4
+    $$$$$:   81-block  5
+    $$$$$:   81-block  6
+    $$$$$:   81-block  7
+    $$$$$:   81-block  8
+    $$$$$:   81-block  9
+    $$$$$:   81-block 10
+    $$$$$:   81-block 11
+    $$$$$:   81-block 12
+    $$$$$:   81-block 13
+    $$$$$:   81-block 14
+    $$$$$:   81-block 15
+        -:   82:    try {
+       3*:   83:        Validator::validatePhoto("asdads");
+        1:   83-block  0
+    %%%%%:   83-block  1
+        1:   83-block  2
+        1:   83-block  3
+        1:   83-block  4
+        1:   83-block  5
+        -:   84:    }
+        1:   85:    catch (...) {
+        1:   85-block  0
+        -:   86:        assert(true);
+        -:   87:    }
+        -:   88:
+        -:   89:
+        1:   90:}
